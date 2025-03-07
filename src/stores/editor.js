@@ -1,5 +1,7 @@
 import { makeAutoObservable, toJS, action, runInAction } from 'mobx';
 import { maxBy } from 'lodash';
+import '@leafer-in/export' // 引入导出元素插件
+
 
 let timer;
 class Editor {

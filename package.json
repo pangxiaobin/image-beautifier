@@ -30,6 +30,7 @@
     "@emoji-mart/react": "^1.1.1",
     "@leafer-in/arrow": "^1.0.2",
     "@leafer-in/editor": "^1.0.2",
+    "@leafer-in/export": "^1.4.2",
     "@leafer-in/scroll": "^1.0.2",
     "@leafer-in/view": "^1.0.2",
     "antd": "^5.19.1",

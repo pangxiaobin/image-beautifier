@@ -45,7 +45,7 @@ export default observer(() => {
                         <p className="text-sm px-4">Click or Drag image to this area<br/>or Paste image</p>
                     </div>
                 </Dragger>
-                <div className="flex justify-between mt-2 py-4 px-6 rounded-md bg-white dark:bg-black shadow-sm">
+                {/* <div className="flex justify-between mt-2 py-4 px-6 rounded-md bg-white dark:bg-black shadow-sm">
                     <Tooltip placement='top' arrow={false} title='Take a screenshot of desktop windows'>
                         <Button shape="round" type="default" size="large" icon={<Icon.Camera size={20} />} onClick={onCapture} />
                     </Tooltip>
@@ -58,7 +58,7 @@ export default observer(() => {
                     <Tooltip placement='top' arrow={false} title='Create gif animate'>
                         <Button shape="round" type="default" size="large" icon={<Icon.ImagePlay size={20} onClick={comingSoon} />} />
                     </Tooltip>
-                </div>
+                </div> */}
                 <button className="w-full mt-1 rounded-md bg-white dark:bg-black border border-dotted dark:border-gray-700 shadow-sm flex justify-between items-center p-1 hover:bg-slate-50 dark:hover:bg-gray-900 hover:px-1.5" onClick={handleTry}>
                     <div className="overflow-hidden rounded-sm w-8">
                         <img src={demoPng} className="w-full" />

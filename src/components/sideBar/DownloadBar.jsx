@@ -5,6 +5,8 @@ import { Button, Tooltip, Popover, Segmented, ConfigProvider, Popconfirm } from 
 import stores from '@stores';
 import { toDownloadFile, nanoid, modKey } from '@utils/utils';
 import useKeyboardShortcuts from '@hooks/useKeyboardShortcuts';
+import '@leafer-in/export' // 引入导出元素插件
+
 
 export default observer(() => {
     const [loading, setLoading] = useState(false);
