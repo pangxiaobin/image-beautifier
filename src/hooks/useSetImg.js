@@ -12,7 +12,7 @@ export default (stores) => {
             width,
             height,
             type: type === 'blob' ? file.type : 'image/png',
-            name: type === 'blob' ? file.name : 'ShotEasy.png'
+            name: type === 'blob' ? file.name : 'lingxiang.png'
         });
         if (stores.option.size.type === 'auto') {
             const margin = getMargin(width, height);

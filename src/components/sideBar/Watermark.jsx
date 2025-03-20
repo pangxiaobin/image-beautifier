@@ -8,7 +8,7 @@ import { text2Svg } from '@utils/utils';
 
 export default observer(() => {
     const [useWater, setUseWater] = useState(false);
-    const [waterCont, setWaterCont] = useState('ShotEasy');
+    const [waterCont, setWaterCont] = useState('lingxiangtools.top');
     const [waterColor, setWaterColor] = useState('#00000030');
     const [direction, setDirection] = useState(45);
     const handleColorChange = (color) => {

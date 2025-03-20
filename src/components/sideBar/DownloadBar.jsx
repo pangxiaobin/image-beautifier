@@ -34,7 +34,7 @@ export default observer(() => {
             content: 'Downloading...',
         });
         await stores.editor.app.tree.export(format, option).then(result => {
-            let name = `ShotEasy`;
+            let name = `lingxiang`;
             if (ratio > 1) name += `@${ ratio }`;
             toDownloadFile(result.data, `${ name }.${ format }`);
             stores.editor.message.open({
